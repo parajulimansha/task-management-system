@@ -1,4 +1,4 @@
-// src/reducers/projectReducer.js
+
 export const projectReducer = (state, action) => {
     switch (action.type) {
         case 'ADD_PROJECT':

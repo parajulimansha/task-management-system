@@ -1,4 +1,4 @@
-// src/hooks/useFormInput.js
+
 import { useState } from 'react';
 
 export const useFormInput = (initialValue) => {

@@ -1,4 +1,4 @@
-// src/contexts/UserPreferencesContext.js
+
 import React, { createContext, useState } from 'react';
 
 export const UserPreferencesContext = createContext();

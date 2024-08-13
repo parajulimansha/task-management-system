@@ -1,4 +1,4 @@
-// src/App.js
+
 import React, { useContext, useReducer } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, ThemeContext } from './contexts/ThemeContext';

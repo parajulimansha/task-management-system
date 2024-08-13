@@ -1,4 +1,4 @@
-// src/components/ProjectList.js
+
 import React from 'react';
 
 const ProjectList = ({ projects, onDeleteProject }) => {
