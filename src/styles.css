@@ -1,0 +1,96 @@
+/* src/styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  padding: 20px;
+}
+
+.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.theme-toggle {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light .nav-bar {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.dark .nav-bar {
+  background-color: #333;
+  color: #fff;
+}
+
+.task-manager, .project-manager, .settings {
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light .task-manager, .light .project-manager, .light .settings {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark .task-manager, .dark .project-manager, .dark .settings {
+  background-color: #333;
+  color: #fff;
+}
+
+.task-manager ul, .project-manager ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-manager li, .project-manager li {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light .task-manager li, .light .project-manager li {
+  background-color: #fafafa;
+  color: #000;
+}
+
+.dark .task-manager li, .dark .project-manager li {
+  background-color: #444;
+  color: #fff;
+}
